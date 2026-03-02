@@ -4,17 +4,12 @@ ip138
 ip138 IP 地理位置信息查询API
 
 http://www.ip138.com/
+适配ip138最新查询页面，改用https://www.ipshudi.com/查询
 
 |travis|
 |pypi|
 |license|
 
-========================
-Installation 安装 (pip3)
-========================
-.. code-block:: bash
-
-    pip3 install ip138
 
 =============================
 Installation 安装 (git clone)
@@ -23,7 +18,7 @@ Installation 安装 (git clone)
 
     git clone https://github.com/KellyHwong/ip138
     cd ip138
-    python3 setup.py install
+    pip install .
 
 ==========
 Usage 用法
