@@ -1,29 +1,33 @@
-20260302 fork，修复脚本，适配 ip138 最新查询页面，改用 https://www.ipshudi.com/ 查询
-
-=====
 ip-138
 ======
-Python IP 地理位置信息查询工具（仓库名 `ip138`，发布包名改为 `ip-138`）
 
-安装：
+20260302 fork，修复脚本，适配 ip138 最新查询页面，改用 https://www.ipshudi.com/ 查询。
+
+Python IP 地理位置信息查询工具（仓库名 ``ip138``，发布包名 ``ip-138``）。
+
+安装
+----
 
 .. code-block:: bash
 
     pip install ip-138
 
-命令行：
+命令行
+------
 
 .. code-block:: bash
 
     ip-138 --ip=172.217.161.164
 
-兼容旧命令（也保留）：
+兼容旧命令（也保留）
+--------------------
 
 .. code-block:: bash
 
     ip138 --ip=172.217.161.164
 
-Python 调用：
+Python 调用
+-----------
 
 .. code-block:: python
 
