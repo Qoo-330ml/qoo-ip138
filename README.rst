@@ -3,7 +3,7 @@ qoo-ip138
 
 20260302 fork，修复脚本，适配 ip138 最新查询页面，改用 https://www.ipshudi.com/ 查询。
 
-Python IP 地理位置信息查询工具（仓库名 ``ip138``，发布包名 ``qoo-ip138``）。
+Python IP 地理位置信息查询工具（发布包名 ``qoo-ip138``）。
 
 安装
 ----
