@@ -1,4 +1,4 @@
-name: Publish iip-138 to PyPI
+name: Publish ip-138 to PyPI
 
 on:
   push:
@@ -47,10 +47,10 @@ jobs:
         working-directory: repo
         env:
           TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN_IIP_138 }}
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN_IP_138 }}
         run: |
           if [ -z "$TWINE_PASSWORD" ]; then
-            echo "PYPI token is empty. Please set repository secret PYPI_API_TOKEN_IIP_138"
+            echo "PYPI token is empty. Please set repository secret PYPI_API_TOKEN_IP_138"
             exit 1
           fi
           python3 -m twine upload --verbose --skip-existing dist/*

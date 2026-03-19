@@ -17,7 +17,7 @@ def long_description():
 
 
 setup(
-    name='iip-138',
+    name='ip-138',
     version=__version__,
     author='Qoo-330ml',
     author_email='opensource@users.noreply.github.com',
@@ -44,7 +44,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'iip-138 = ip138.command:main',
+            'ip-138 = ip138.command:main',
             'ip138 = ip138.command:main',
         ]
     },
